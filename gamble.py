@@ -1,12 +1,33 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 22 12:47:40 2022
+from random import randint
+print("user")
+x1 = randint(1,6)
+if x1 == 21:
+    print("user is winner")
+while x1 <= 21:
+    print(x1)
+    answer = input("do you want to Continue:")
+    w = len(answer)
+    if w == 3:
+        x1 = x1 + randint(1,6)    
+    else:
+        break
 
-@author: Asus
-"""
-arrivals=['Adela', 'Fleda', 'Owen', 'May', 'Mona', 'Gilbert', "Ford"]
-def fashionably_late(arrivals, name):
-    
-    order = arrivals.index(name)
-    return order >= len(arrivals) / 2 and order != len(arrivals) - 1
-fashionably_late(arrivals,Ford)
+print("-------------------------------------------------------")
+
+print("dealer")
+x2 = randint(1,6)
+if x2 == 21:
+    print("dealer is winner")
+while x2 <= 21:
+    print(x2)
+    answer = input("do you want to Continue:")
+    w = len(answer)
+    if w == 3:
+        x2 = x2 + randint(1,6)  
+    else:
+        break
+
+if x1 - 21 < x2 - 21:
+    print("user is winner")
+else:
+    print("dealer is winner")
