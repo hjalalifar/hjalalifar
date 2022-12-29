@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @hjalalifar
 - 👀 I’m interested in python and data science and machine learning
-- 🌱 I’m currently learning django and pandas and numpy
+- 🌱 I’m currently learning machine learning, deap learning, pandas, numpy and matplotlib with python
 - 💞️ I’m looking to collaborate on data science
 - 📫 How to reach me hjalalifar@gmail.com
 
